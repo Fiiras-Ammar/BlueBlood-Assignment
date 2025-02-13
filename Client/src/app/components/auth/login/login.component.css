@@ -1,0 +1,13 @@
+.login-card {
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.p-field {
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+}

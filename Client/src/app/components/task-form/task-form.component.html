@@ -1,0 +1,26 @@
+<form>
+  <div class="p-fluid">
+    <div class="field">
+      <label for="name">Name</label>
+      <input id="name" type="text" pInputText [(ngModel)]="task.name" name="name" required />
+    </div>
+
+    <div class="field">
+      <label for="description">Description</label>
+      <textarea id="description" pInputTextarea [(ngModel)]="task.description" name="description"></textarea>
+    </div>
+
+    <div class="field">
+      <label for="completed">Completed</label>
+      <p-dropdown
+        id="completed"
+        [(ngModel)]="task.completed"
+        name="completed"
+        [options]="[{ label: 'Yes', value: true }, { label: 'No', value: false }]"
+        placeholder="Select Status"
+      ></p-dropdown>
+    </div>
+
+    <button pButton type="button" label="Save" (click)="save()" icon="pi pi-save"></button>
+  </div>
+</form>
