@@ -170,16 +170,3 @@ The frontend will be accessible at http://localhost:4200.
 
 ---
 
-## Contributing
-
-Feel free to contribute to this project by submitting issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it as needed.
-
----
-
-If you have any questions or need further assistance, feel free to reach out!
